@@ -13,22 +13,18 @@ import java.util.ArrayList;
 
 public class ListViewAdapter extends BaseAdapter {
     private ArrayList<ListViewItem> listViewItemArrayList = new ArrayList<ListViewItem>();
-
     @Override
     public int getCount() {// getCount로 반환되는 아이템의 수 만큼 아래 메소드들을 호출함.
         return listViewItemArrayList.size();
     }
-
     @Override
     public ListViewItem getItem(int position) {//해당 위치에 있는 아이템 반환
         return listViewItemArrayList.get(position);
     }
-
     @Override
     public long getItemId(int position) {
         return position;
     }
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         //해당 위치에 표시되어질 view를 만들어서 반환해줌.
