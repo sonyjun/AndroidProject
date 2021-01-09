@@ -6,6 +6,10 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:divider="#F61515"
+        android:dividerHeight="2dp"
+        android:fastScrollEnabled="true"
+        android:listSelector="#59339C"
         android:id="@+id/main_listview"/>
 
 </LinearLayout>
