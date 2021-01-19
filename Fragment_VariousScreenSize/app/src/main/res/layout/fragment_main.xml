@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:divider="#B33030"
+        android:dividerHeight="5dp"
+        android:id="@+id/fragment_main_listview"
+        android:background="@drawable/border"
+        android:stackFromBottom="true">
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:id="@+id/fragment_main_linear_addbox">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="0dp"
+                android:text="제목"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </TextView>
+            <EditText
+                android:id="@+id/fragment_main_edittext_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:hint="제목을 입력하세요">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:background="@drawable/border">
+
+            <TextView
+                android:layout_width="0dp"
+                android:text="내용"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </TextView>
+            <EditText
+                android:id="@+id/fragment_main_edittext_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:hint="내용을 입력하세요">
+            </EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/fragment_main_btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="ADD">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
