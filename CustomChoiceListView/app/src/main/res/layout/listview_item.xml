@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.customchoicelistview.CheckableLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/item_imageview">
+    </ImageView>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:id="@+id/item_textview">
+    </TextView>
+    <CheckBox
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:id="@+id/item_checkbox"
+        android:focusable="false"
+        android:clickable="false">
+    </CheckBox>
+
+</com.example.customchoicelistview.CheckableLinearLayout>
