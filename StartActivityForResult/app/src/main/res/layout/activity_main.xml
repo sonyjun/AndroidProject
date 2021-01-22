@@ -9,6 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:gravity="center"
+        android:text="no"
         android:id="@+id/main_no">
     </TextView>
 
@@ -16,6 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:gravity="center"
+        android:text="name"
         android:id="@+id/main_name">
     </TextView>
 
@@ -23,6 +27,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:gravity="center"
+        android:text="phone"
         android:id="@+id/main_phone">
     </TextView>
 
@@ -30,6 +36,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:gravity="center"
+        android:text="age"
         android:id="@+id/main_age">
     </TextView>
 
