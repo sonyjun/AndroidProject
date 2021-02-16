@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="이름"
+        android:id="@+id/item_name"
+        android:background="@drawable/recycler_item_stroke"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="성별"
+        android:id="@+id/item_sex"
+        android:background="@drawable/recycler_item_stroke"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="나이"
+        android:id="@+id/item_age"
+        android:background="@drawable/recycler_item_stroke"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:id="@+id/item_address"
+        android:background="@drawable/recycler_item_stroke"
+        android:text="주소"
+        android:textSize="20sp"></TextView>
+</LinearLayout>
