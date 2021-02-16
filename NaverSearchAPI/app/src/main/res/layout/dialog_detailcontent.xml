@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1000px"
+    android:layout_height="1500px"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/linear_radius_thema"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:scrollbars="vertical"
+        android:id="@+id/dialog_detailcontent_textview">
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="확인"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_color"
+        android:id="@+id/dialog_detailcontent_btn"
+        android:layout_weight="1">
+    </Button>
+</LinearLayout>
