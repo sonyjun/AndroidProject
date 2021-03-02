@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.firebase"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.6.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9f35c4e40ed9d796700506a45f5c038f/jetified-firebase-database-19.6.0/AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.6.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9f35c4e40ed9d796700506a45f5c038f/jetified-firebase-database-19.6.0/AndroidManifest.xml:25:22-76
+16
+17    <application
+17-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:5:5-22:19
+18        android:allowBackup="true"
+18-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/4569263cb08b6eed579fad27c0168e17/core-1.3.1/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:8:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:10:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.FireBase" >
+26-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:11:9-46
+27        <activity
+27-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:12:9-19:20
+28            android:name="com.example.firebase.MainActivity"
+28-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:12:19-47
+29            android:windowSoftInputMode="adjustNothing" >
+29-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:13:13-56
+30            <intent-filter>
+30-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:14:13-18:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:15:17-69
+31-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:15:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:17:17-77
+33-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:17:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:20:9-21:58
+37            android:name="com.example.firebase.ChatActivity"
+37-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:20:19-47
+38            android:windowSoftInputMode="adjustNothing" />
+38-->/Users/junsony/AndroidStudioProjects/FireBase/app/src/main/AndroidManifest.xml:21:13-56
+39
+40        <service
+40-->[com.google.firebase:firebase-database:19.6.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9f35c4e40ed9d796700506a45f5c038f/jetified-firebase-database-19.6.0/AndroidManifest.xml:29:9-35:19
+41            android:name="com.google.firebase.components.ComponentDiscoveryService"
+41-->[com.google.firebase:firebase-database:19.6.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9f35c4e40ed9d796700506a45f5c038f/jetified-firebase-database-19.6.0/AndroidManifest.xml:30:13-84
+42            android:directBootAware="true"
+42-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/53f4704808341223129c4c3a95e78d5c/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+43            android:exported="false" >
+43-->[com.google.firebase:firebase-database:19.6.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9f35c4e40ed9d796700506a45f5c038f/jetified-firebase-database-19.6.0/AndroidManifest.xml:31:13-37
+44            <meta-data
+44-->[com.google.firebase:firebase-database:19.6.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9f35c4e40ed9d796700506a45f5c038f/jetified-firebase-database-19.6.0/AndroidManifest.xml:32:13-34:85
+45                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+45-->[com.google.firebase:firebase-database:19.6.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9f35c4e40ed9d796700506a45f5c038f/jetified-firebase-database-19.6.0/AndroidManifest.xml:33:17-109
+46                android:value="com.google.firebase.components.ComponentRegistrar" />
+46-->[com.google.firebase:firebase-database:19.6.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9f35c4e40ed9d796700506a45f5c038f/jetified-firebase-database-19.6.0/AndroidManifest.xml:34:17-82
+47            <!--
+48                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+49                clients to use it as well, by defining this registrar in their own core/common library.
+50            -->
+51            <meta-data
+51-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/53f4704808341223129c4c3a95e78d5c/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+52                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+52-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/53f4704808341223129c4c3a95e78d5c/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/53f4704808341223129c4c3a95e78d5c/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+54        </service>
+55
+56        <provider
+56-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/53f4704808341223129c4c3a95e78d5c/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+57            android:name="com.google.firebase.provider.FirebaseInitProvider"
+57-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/53f4704808341223129c4c3a95e78d5c/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+58            android:authorities="com.example.firebase.firebaseinitprovider"
+58-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/53f4704808341223129c4c3a95e78d5c/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/53f4704808341223129c4c3a95e78d5c/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+60            android:exported="false"
+60-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/53f4704808341223129c4c3a95e78d5c/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+61            android:initOrder="100" />
+61-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/53f4704808341223129c4c3a95e78d5c/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/146130c789a218aacbd823bf2b15ca9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/146130c789a218aacbd823bf2b15ca9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/146130c789a218aacbd823bf2b15ca9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/146130c789a218aacbd823bf2b15ca9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/f980a511bfffd01d56ea89b07537fc7b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/f980a511bfffd01d56ea89b07537fc7b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/f980a511bfffd01d56ea89b07537fc7b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>

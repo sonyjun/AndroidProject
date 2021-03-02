@@ -1,0 +1,25 @@
+com/example/firebase/MakeChatRoomDialog.java
+ com.example.firebase.MakeChatRoomDialog
+ com.example.firebase.MakeChatRoomDialog$1
+ com.example.firebase.MakeChatRoomDialog$2
+ com.example.firebase.MakeChatRoomDialog$3
+com/example/firebase/MainActivity.java
+ com.example.firebase.MainActivity
+ com.example.firebase.MainActivity$1
+ com.example.firebase.MainActivity$2
+com/example/firebase/ChatRoomItem.java
+ com.example.firebase.ChatRoomItem
+com/example/firebase/ChatContentRecyclerAdapter.java
+ com.example.firebase.ChatContentRecyclerAdapter
+ com.example.firebase.ChatContentRecyclerAdapter$ChatContentViewHolder
+com/example/firebase/BuildConfig.java
+ com.example.firebase.BuildConfig
+com/example/firebase/ChatActivity.java
+ com.example.firebase.ChatActivity
+ com.example.firebase.ChatActivity$1
+ com.example.firebase.ChatActivity$2
+com/example/firebase/ChatContentItem.java
+ com.example.firebase.ChatContentItem
+com/example/firebase/ChatRoomRecyclerAdapter.java
+ com.example.firebase.ChatRoomRecyclerAdapter
+ com.example.firebase.ChatRoomRecyclerAdapter$ChatRoomViewHolder
