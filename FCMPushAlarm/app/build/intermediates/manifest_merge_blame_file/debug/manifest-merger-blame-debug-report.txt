@@ -1,0 +1,239 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fcmpushalarm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:4:5-83
+11-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/junsony/.gradle/caches/transforms-2/files-2.1/02f0b750340f7230f6a0cfcd43e7bda8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+15-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/junsony/.gradle/caches/transforms-2/files-2.1/02f0b750340f7230f6a0cfcd43e7bda8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:24:5-68
+16-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:26:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:5:5-19:19
+21        android:allowBackup="true"
+21-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/a62804a47368eb7ab7c7a621c89cad6f/core-1.3.1/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:7:9-43
+25        android:label="@string/app_name"
+25-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:8:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:9:9-54
+27        android:supportsRtl="true"
+27-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:10:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.FCMPushAlarm" >
+29-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:11:9-50
+30        <activity android:name="com.example.fcmpushalarm.MainActivity" >
+30-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:12:9-18:20
+30-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:12:19-47
+31            <intent-filter>
+31-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:13:13-17:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:14:17-69
+32-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:14:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:16:17-77
+34-->/Users/junsony/AndroidStudioProjects/FCMPushAlarm/app/src/main/AndroidManifest.xml:16:27-74
+35            </intent-filter>
+36        </activity>
+37        <!--
+38             FirebaseMessagingService performs security checks at runtime,
+39             but set to not exported to explicitly avoid allowing another app to call it.
+40        -->
+41        <service
+41-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+42            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+42-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+43            android:directBootAware="true"
+43-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+44            android:exported="false" >
+44-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+45            <intent-filter android:priority="-500" >
+45-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:32:13-34:29
+45-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:32:28-51
+46                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+46-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:33:17-78
+46-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:33:25-75
+47            </intent-filter>
+48        </service>
+49        <service
+49-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:36:9-42:19
+50            android:name="com.google.firebase.components.ComponentDiscoveryService"
+50-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:37:13-84
+51            android:directBootAware="true"
+51-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+52            android:exported="false" >
+52-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:38:13-37
+53            <meta-data
+53-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+54                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+54-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-messaging:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/9b0fb84d08a4e8f0dd84f32345f0e375/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/junsony/.gradle/caches/transforms-2/files-2.1/61254bc85ac22d81c95bdc5a93aca644/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+57                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+57-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/junsony/.gradle/caches/transforms-2/files-2.1/61254bc85ac22d81c95bdc5a93aca644/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/junsony/.gradle/caches/transforms-2/files-2.1/61254bc85ac22d81c95bdc5a93aca644/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+60                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+60-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+62            <meta-data
+62-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/e086a3c900bf0087a465146b192073e9/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:30:13-32:85
+63                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+63-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/e086a3c900bf0087a465146b192073e9/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:31:17-139
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/e086a3c900bf0087a465146b192073e9/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:32:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-installations:16.3.5] /Users/junsony/.gradle/caches/transforms-2/files-2.1/645bd2d7959408434d61553274a34784/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+66                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+66-->[com.google.firebase:firebase-installations:16.3.5] /Users/junsony/.gradle/caches/transforms-2/files-2.1/645bd2d7959408434d61553274a34784/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-installations:16.3.5] /Users/junsony/.gradle/caches/transforms-2/files-2.1/645bd2d7959408434d61553274a34784/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+68            <!--
+69                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+70                clients to use it as well, by defining this registrar in their own core/common library.
+71            -->
+72            <meta-data
+72-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+73                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+73-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+75        </service>
+76        <service
+76-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/junsony/.gradle/caches/transforms-2/files-2.1/02f0b750340f7230f6a0cfcd43e7bda8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+77            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+77-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/junsony/.gradle/caches/transforms-2/files-2.1/02f0b750340f7230f6a0cfcd43e7bda8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+78            android:exported="false" >
+78-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/junsony/.gradle/caches/transforms-2/files-2.1/02f0b750340f7230f6a0cfcd43e7bda8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+79            <meta-data
+79-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/junsony/.gradle/caches/transforms-2/files-2.1/02f0b750340f7230f6a0cfcd43e7bda8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+80                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+80-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/junsony/.gradle/caches/transforms-2/files-2.1/02f0b750340f7230f6a0cfcd43e7bda8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+81                android:value="cct" />
+81-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/junsony/.gradle/caches/transforms-2/files-2.1/02f0b750340f7230f6a0cfcd43e7bda8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+82        </service>
+83
+84        <receiver
+84-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+85            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+85-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+86            android:exported="true"
+86-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+87            android:permission="com.google.android.c2dm.permission.SEND" >
+87-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+88            <intent-filter>
+88-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:41:13-43:29
+89                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+89-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:42:17-81
+89-->[com.google.firebase:firebase-iid:21.0.1] /Users/junsony/.gradle/caches/transforms-2/files-2.1/99b3a5dba59480a1641c437af4b4cb76/jetified-firebase-iid-21.0.1/AndroidManifest.xml:42:25-78
+90            </intent-filter>
+91        </receiver>
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+95            android:authorities="com.example.fcmpushalarm.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+97            android:exported="false"
+97-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+98            android:initOrder="100" />
+98-->[com.google.firebase:firebase-common:19.5.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/7972834fc9a3de8dd20c85e62bfc7997/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+99
+100        <receiver
+100-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:29:9-33:20
+101            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+101-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:30:13-85
+102            android:enabled="true"
+102-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:31:13-35
+103            android:exported="false" >
+103-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:32:13-37
+104        </receiver>
+105
+106        <service
+106-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:35:9-38:40
+107            android:name="com.google.android.gms.measurement.AppMeasurementService"
+107-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:36:13-84
+108            android:enabled="true"
+108-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:37:13-35
+109            android:exported="false" />
+109-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:38:13-37
+110        <service
+110-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:39:9-43:72
+111            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+111-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:40:13-87
+112            android:enabled="true"
+112-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:41:13-35
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:42:13-37
+114            android:permission="android.permission.BIND_JOB_SERVICE" />
+114-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/junsony/.gradle/caches/transforms-2/files-2.1/ef9def50a6ec639b07be697303b2b8ce/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:43:13-69
+115
+116        <activity
+116-->[com.google.android.gms:play-services-base:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/f24f285fed98fec75b889c09d17bbc49/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+117            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+117-->[com.google.android.gms:play-services-base:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/f24f285fed98fec75b889c09d17bbc49/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+118            android:exported="false"
+118-->[com.google.android.gms:play-services-base:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/f24f285fed98fec75b889c09d17bbc49/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+119-->[com.google.android.gms:play-services-base:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/f24f285fed98fec75b889c09d17bbc49/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+120
+121        <meta-data
+121-->[com.google.android.gms:play-services-basement:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/43a9726822229a3ef8bad49e16232bd7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+122            android:name="com.google.android.gms.version"
+122-->[com.google.android.gms:play-services-basement:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/43a9726822229a3ef8bad49e16232bd7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+123            android:value="@integer/google_play_services_version" />
+123-->[com.google.android.gms:play-services-basement:17.0.0] /Users/junsony/.gradle/caches/transforms-2/files-2.1/43a9726822229a3ef8bad49e16232bd7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+124
+125        <service
+125-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/junsony/.gradle/caches/transforms-2/files-2.1/c935b937897adf4d4cae6f6d9fdb956f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+126            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+126-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/junsony/.gradle/caches/transforms-2/files-2.1/c935b937897adf4d4cae6f6d9fdb956f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+127            android:exported="false"
+127-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/junsony/.gradle/caches/transforms-2/files-2.1/c935b937897adf4d4cae6f6d9fdb956f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" >
+128-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/junsony/.gradle/caches/transforms-2/files-2.1/c935b937897adf4d4cae6f6d9fdb956f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+129        </service>
+130
+131        <receiver
+131-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/junsony/.gradle/caches/transforms-2/files-2.1/c935b937897adf4d4cae6f6d9fdb956f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+132            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+132-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/junsony/.gradle/caches/transforms-2/files-2.1/c935b937897adf4d4cae6f6d9fdb956f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+133            android:exported="false" />
+133-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/junsony/.gradle/caches/transforms-2/files-2.1/c935b937897adf4d4cae6f6d9fdb956f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+134    </application>
+135
+136</manifest>
