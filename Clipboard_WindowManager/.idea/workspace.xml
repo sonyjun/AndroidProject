@@ -7,16 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1d7e116-100e-4616-a3fb-e42c5437eeb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment_VariousScreenSize/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment_VariousScreenSize/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListView_ItemFiltering/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListView_ItemFiltering/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListView_Multi_Item/app/src/main/java/com/example/listview_multi_item/ListViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListView_Multi_Item/app/src/main/java/com/example/listview_multi_item/ListViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListView_Multi_Item/app/src/main/java/com/example/listview_multi_item/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListView_Multi_Item/app/src/main/java/com/example/listview_multi_item/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NaverSearchAPI/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NaverSearchAPI/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotificationListener/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NotificationListener/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotificationListener/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NotificationListener/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotificationListener/app/src/main/java/com/example/notificationlistener/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NotificationListener/app/src/main/java/com/example/notificationlistener/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotificationListener/app/src/main/java/com/example/notificationlistener/MyNotificationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NotificationListener/app/src/main/java/com/example/notificationlistener/MyNotificationListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Service/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Service/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/MusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/MusicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NaverSearchAPI/app/src/main/java/com/example/naversearchapi/ApiSearchMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NaverSearchAPI/app/src/main/java/com/example/naversearchapi/ApiSearchMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NaverSearchAPI/app/src/main/java/com/example/naversearchapi/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NaverSearchAPI/app/src/main/java/com/example/naversearchapi/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Thread/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -83,11 +83,13 @@ public class MainActivity extends AppCompatActivity {
                 String title ="";
                 try {
                     title = URLEncoder.encode(arrayList.get(position), "UTF-8");
+                    //네이버에서 UTF-8형태의 쿼리를 통해 검색을 하므로 변경해주어야 함.
                 } catch (UnsupportedEncodingException e) {
                     e.printStackTrace();
                 }
                 Intent intent = new Intent(Intent.ACTION_VIEW,
                         Uri.parse("https://search.naver.com/search.naver?query=%EC%98%81%ED%99%94+"+title));
+                // ' 영화 + 놈놈놈 ' 이런식으로 검색되도록 설정.
                 startActivity(intent);
             }
         });
@@ -114,8 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected String doInBackground(String... strings) {
-            ApiSearchMovie apiSearchMovie = new ApiSearchMovie();
-            String result = apiSearchMovie.setting(strings[0]);
+            String result = ApiSearchMovie.setting(strings[0]);
             arrayList.clear();
             try {
                 JSONObject jsonObject = new JSONObject(result);

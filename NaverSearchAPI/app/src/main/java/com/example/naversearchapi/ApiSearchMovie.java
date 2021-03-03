@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class ApiSearchMovie {
 
-    public String setting(String inputText) {
+    public static String setting(String inputText) {
         String clientId = "_hHS21uRhg2jTtlCNj2i"; //애플리케이션 클라이언트 아이디값"
         String clientSecret = "xSDbs76Svm"; //애플리케이션 클라이언트 시크릿값"
 
