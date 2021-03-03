@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463818962154",
+    "project_id": "androidchat-61ca0",
+    "storage_bucket": "androidchat-61ca0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463818962154:android:732c91f5775909abe41393",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463818962154-a180v2ku2n4l6ktkbsl9n3tbtcf8iat4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsjTjM349ThsGgjnqCNz1o25FLiqw952o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463818962154-a180v2ku2n4l6ktkbsl9n3tbtcf8iat4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

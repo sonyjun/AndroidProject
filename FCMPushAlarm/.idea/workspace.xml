@@ -7,17 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57c5b4d-4a21-4286-a8f1-d09d4dcd3413" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../NaverSearchAPI/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NaverSearchAPI/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotificationListener/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NotificationListener/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotificationListener/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NotificationListener/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotificationListener/app/src/main/java/com/example/notificationlistener/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NotificationListener/app/src/main/java/com/example/notificationlistener/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NotificationListener/app/src/main/java/com/example/notificationlistener/MyNotificationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NotificationListener/app/src/main/java/com/example/notificationlistener/MyNotificationListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Service/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Service/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/MusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/MusicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Service/app/src/main/java/com/example/service/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/intermediates/javac/debug/classes/com/example/clipboard_windowmanager/ClipBoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/intermediates/javac/debug/classes/com/example/clipboard_windowmanager/ClipBoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/intermediates/project_dex_archive/debug/out/com/example/clipboard_windowmanager/ClipBoardService.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/intermediates/project_dex_archive/debug/out/com/example/clipboard_windowmanager/ClipBoardService.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Clipboard_WindowManager/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FireBase/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FireBase/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FireBase/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../FireBase/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FireBase/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../FireBase/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FireBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FireBase/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +40,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,5 +185,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="957" height="212" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1614589577959" />
+    <state x="467" y="123" width="799" height="621" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1614787206733">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="467" y="123" width="799" height="621" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1614787206733" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-#Wed Feb 24 00:57:22 KST 2021
+#Thu Mar 04 00:57:41 KST 2021
 base.0=/Users/junsony/AndroidStudioProjects/Clipboard_WindowManager/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

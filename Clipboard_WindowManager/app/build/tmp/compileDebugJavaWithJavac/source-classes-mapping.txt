@@ -1,7 +1,11 @@
-com/example/clipboard_windowmanager/ClipBoardService.java
- com.example.clipboard_windowmanager.ClipBoardService
+com/example/clipboard_windowmanager/WindowManagerService.java
+ com.example.clipboard_windowmanager.WindowManagerService
+ com.example.clipboard_windowmanager.WindowManagerService$1
+ com.example.clipboard_windowmanager.WindowManagerService$2
 com/example/clipboard_windowmanager/BuildConfig.java
  com.example.clipboard_windowmanager.BuildConfig
+com/example/clipboard_windowmanager/PasteResultActivity.java
+ com.example.clipboard_windowmanager.PasteResultActivity
 com/example/clipboard_windowmanager/MainActivity.java
  com.example.clipboard_windowmanager.MainActivity
  com.example.clipboard_windowmanager.MainActivity$1
@@ -10,9 +14,5 @@ com/example/clipboard_windowmanager/MainActivity.java
  com.example.clipboard_windowmanager.MainActivity$4
  com.example.clipboard_windowmanager.MainActivity$5
  com.example.clipboard_windowmanager.MainActivity$6
-com/example/clipboard_windowmanager/WindowManagerService.java
- com.example.clipboard_windowmanager.WindowManagerService
- com.example.clipboard_windowmanager.WindowManagerService$1
- com.example.clipboard_windowmanager.WindowManagerService$2
-com/example/clipboard_windowmanager/PasteResultActivity.java
- com.example.clipboard_windowmanager.PasteResultActivity
+com/example/clipboard_windowmanager/ClipBoardService.java
+ com.example.clipboard_windowmanager.ClipBoardService
