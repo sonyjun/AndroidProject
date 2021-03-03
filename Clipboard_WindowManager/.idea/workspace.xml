@@ -7,13 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1d7e116-100e-4616-a3fb-e42c5437eeb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FCMPushAlarm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FCMPushAlarm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FireBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FireBase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/clipboard_windowmanager/ClipBoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/clipboard_windowmanager/ClipBoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/clipboard_windowmanager/ClipBoardService.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/clipboard_windowmanager/ClipBoardService.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/clipboard_windowmanager/ClipBoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/clipboard_windowmanager/ClipBoardService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,22 +158,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="835" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1614094394141" />
-    <state width="793" height="175" key="GridCell.Tab.0.bottom" timestamp="1614097082045">
+    <state width="957" height="175" key="GridCell.Tab.0.bottom" timestamp="1614788827210">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="793" height="175" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1614097082045" />
-    <state width="793" height="175" key="GridCell.Tab.0.center" timestamp="1614097082045">
+    <state width="957" height="175" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1614788827210" />
+    <state width="957" height="175" key="GridCell.Tab.0.center" timestamp="1614788827209">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="793" height="175" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1614097082045" />
-    <state width="793" height="175" key="GridCell.Tab.0.left" timestamp="1614097082045">
+    <state width="957" height="175" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1614788827209" />
+    <state width="957" height="175" key="GridCell.Tab.0.left" timestamp="1614788827209">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="793" height="175" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1614097082045" />
-    <state width="793" height="175" key="GridCell.Tab.0.right" timestamp="1614097082045">
+    <state width="957" height="175" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1614788827209" />
+    <state width="957" height="175" key="GridCell.Tab.0.right" timestamp="1614788827209">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="793" height="175" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1614097082045" />
+    <state width="957" height="175" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1614788827209" />
     <state x="705" y="123" width="635" height="621" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1614787035698">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

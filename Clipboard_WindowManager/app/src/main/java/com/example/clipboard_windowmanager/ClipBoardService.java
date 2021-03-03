@@ -9,6 +9,7 @@ import android.os.Build;
 import android.os.IBinder;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 
@@ -23,11 +24,14 @@ public class ClipBoardService extends Service implements ClipboardManager.OnPrim
     public int onStartCommand(Intent intent, int flags, int startId) {
         clipboardManager = (ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);
         clipboardManager.addPrimaryClipChangedListener(this);
+        Log.e("onStartCommand","돌아갑니다.");
         return super.onStartCommand(intent, flags, startId);
     }
 
     @Override
     public void onDestroy() {
+        clipboardManager.removePrimaryClipChangedListener(this);
+        Log.e("onDestroy","돌아갑니다.");
         super.onDestroy();
     }
 
